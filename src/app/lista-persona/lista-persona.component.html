@@ -1,0 +1,13 @@
+<h1>Listado de personas</h1>
+
+<br>
+
+<router-outlet></router-outlet>
+
+<div class="contenedores">
+    <div *ngFor="let person of persons">
+        <app-person-card 
+        (enviar)="recibirMensaje($event)" [person]="person">
+        </app-person-card>
+    </div>
+</div>

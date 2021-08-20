@@ -1,0 +1,41 @@
+
+.contenedor{
+    margin: 0;
+    background: #525151;
+    border-radius: 5px;
+}
+
+.text{
+    color: white;
+}
+.elemento{
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 10px;
+}
+form{
+    
+    padding: 10px;
+    align-content: left;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    background: rgb(163, 163, 163);
+    margin: 5px;
+}
+
+.botones{
+    padding: 20px;
+    align-self: center;
+    height: 40px;
+}
+h1{
+    padding: 10px;
+}
+p{
+    text-align: center;
+}

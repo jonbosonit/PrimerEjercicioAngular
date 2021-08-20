@@ -1,0 +1,22 @@
+
+    <div class="contenedor">
+            
+            <h2 class="text">{{person.user}}</h2>
+    
+            
+            <h3 class="text">{{person.surname}}</h3>
+
+            <p class="text">{{person.personal_email}}</p>
+            <br>
+
+            <p class="text">
+                <strong>Ciudad de nacimiento: </strong>{{person.city}}
+                <br>
+                <strong>Fecha de creacion: </strong>{{person.created_date}}
+            </p>
+
+            <button class="boton" routerLink="/editar/{{person.id}}" routerLinkActive="active">Editar</button>
+            <button class="boton" (click)="borrarPerson()">Borrar</button>
+    </div>
+
+
